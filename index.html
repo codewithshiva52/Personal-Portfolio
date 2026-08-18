@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Shiva Sharma, a B.Tech CSE student and aspiring web developer focused on Java, JavaScript, HTML, CSS, DSA and building practical web applications." />
+    <title>Shiva Sharma | B.Tech CSE Student & Aspiring Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="background-effects" aria-hidden="true">
+        <span class="particle p1"></span>
+        <span class="particle p2"></span>
+        <span class="particle p3"></span>
+        <span class="particle p4"></span>
+        <span class="particle p5"></span>
+    </div>
+
+    <nav>
+        <div class="container nav-wrap">
+            <a href="#home" class="logo">Shiva<span>.</span></a>
+
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internships">Experience</a></li>
+                <li><a href="#contact" class="btn-nav">Hire Me</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+                <span class="theme-label">☀️ Light Mode</span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-left">
+                    <div class="status-badge">
+                        <span class="dot"></span> Open to opportunities
+                    </div>
+                    <h1>Shiva Sharma</h1>
+                    <div class="typewriter">B.Tech CSE Student | Aspiring Web Developer</div>
+                    <p>
+                        Building responsive and user-friendly web applications using HTML, CSS, JavaScript and modern web development practices. Currently strengthening my Java and DSA skills to become a strong software developer.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i> Hire Me
+                        </a>
+                        <button type="button" class="btn-outline" id="downloadResume" aria-label="Resume download">
+                            <i class="fas fa-download"></i> Resume
+                        </button>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://github.com/codewithshiva52" target="_blank" rel="noreferrer" aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/shiva-sharma-a37a7b390" target="_blank" rel="noreferrer" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://leetcode.com/Shiva_sharma_code" target="_blank" rel="noreferrer" aria-label="LeetCode profile"><i class="fas fa-code"></i></a>
+                        <a href="mailto:shivasharma.aur123@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="avatar-ring">
+                        <img src="photo.png" alt="Portrait of Shiva Sharma" class="avatar" />
+                    </div>
+                    <!-- <div class="floating-card card-1">
+                        <i class="fas fa-code"></i> 125+ LeetCode Problems Solved
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-rocket"></i> Java & Web Development
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="tag">About</span>
+                <h2>Know Me Better</h2>
+            </div>
+
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <p>
+                        I am <strong>Shiva Sharma</strong>, a B.Tech CSE student at <strong>IMS Engineering College, Ghaziabad</strong>, currently in my 3rd year. My current focus is web development, Java, DSA, and problem solving while building practical web applications.
+                    </p>
+                    <p>
+                        I work with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>Java</strong> to build responsive, user-friendly interfaces and practical solutions. I enjoy learning by building, improving my core coding skills, and solving real problems through web development.
+                    </p>
+                    <p>
+                        My goal is to become a skilled <strong>Software Developer</strong> by continuously improving my technical foundation, strengthening my problem-solving approach, and creating useful web experiences.
+                    </p>
+
+                    <div class="stats-row">
+                        <div class="stat">
+                            <span class="num" data-count="125">0</span>
+                            <span class="lbl">LeetCode Problems</span>
+                        </div>
+                        <div class="stat">
+                            <span class="num" data-count="6">0</span>
+                            <span class="lbl">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="num" data-count="3">0</span>
+                            <span class="lbl">Year</span>
+                        </div>
+                        <div class="stat">
+                            <span class="num" data-count="8.4">0</span>
+                            <span class="lbl">SGPA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-cards">
+                    <div class="info-card">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <span>Full Name</span>
+                            <strong>Shiva Sharma</strong>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span>Location</span>
+                            <strong>Ghaziabad, Uttar Pradesh</strong>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <span>Education</span>
+                            <strong>B.Tech CSE (3rd Year)</strong>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-bullseye"></i>
+                        <div>
+                            <span>Goal</span>
+                            <strong>Software Developer</strong>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-heart"></i>
+                        <div>
+                            <span>Current Focus</span>
+                            <strong>Web Development, Java, DSA</strong>
+                        </div>
+                    </div>
+                    <div class="info-card github-link-card">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <span>GitHub</span>
+                            <a href="https://github.com/codewithshiva52" target="_blank" rel="noreferrer">codewithshiva52</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-header center">
+                <span class="tag">Skills</span>
+                <h2>My Tech Stack</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <div class="skill-pills">
+                        <span class="pill active">Java</span>
+                        <span class="pill active">Python</span>
+                        <span class="pill active">C</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Web Development</h3>
+                    <div class="skill-pills">
+                        <span class="pill active">HTML</span>
+                        <span class="pill active">CSS</span>
+                        <span class="pill active">JavaScript</span>
+                        <span class="pill active">Bootstrap</span>
+                        <span class="pill active">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Core CS</h3>
+                    <div class="skill-pills">
+                        <span class="pill active">DSA</span>
+                        <span class="pill active">OOP</span>
+                        <span class="pill active">DBMS</span>
+                        <span class="pill active">Operating Systems</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <div class="skill-pills">
+                        <span class="pill active">Git</span>
+                        <span class="pill active">GitHub</span>
+                        <span class="pill active">VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header center">
+                <span class="tag">Projects</span>
+                <h2>Featured Work</h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <img src="studentmanagement.png" alt="Student Management System project" class="project-image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Student Management System</h3>
+                        <p>Simple student record and attendance management interface built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/codewithshiva52/Student-Management-System" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://codewithshiva52.github.io/Student-Management-System/" target="_blank" rel="noreferrer"><i class="fas fa-eye"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <img src="todo-list.png" alt="To-Do List project" class="project-image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do List</h3>
+                        <p>Task manager with add, complete, and remove actions for daily productivity.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/codewithshiva52/To-Do-List" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://codewithshiva52.github.io/To-Do-List/" target="_blank" rel="noreferrer"><i class="fas fa-eye"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <img src="calculator.png" alt="Calculator project" class="project-image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Calculator</h3>
+                        <p>Responsive calculator application with arithmetic operations and simple user interaction.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/codewithshiva52/Calculator" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://codewithshiva52.github.io/Calculator/" target="_blank" rel="noreferrer"><i class="fas fa-eye"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-thumb">
+                        <img src="stone paper scissors.png" alt="Stone Paper Scissors project" class="project-image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Stone Paper Scissors</h3>
+                        <p>Classic game project with score tracking and interactive browser-based gameplay.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/codewithshiva52/stone-paper-scissors-game" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://codewithshiva52.github.io/stone-paper-scissors-game/" target="_blank" rel="noreferrer"><i class="fas fa-eye"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-thumb">
+                        <img src="portfolio.png" alt="Personal Portfolio project" class="project-image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Responsive portfolio website showcasing academic journey, technical skills, projects, and contact details.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> Repo</a>
+                            <a href="#" target="_blank" rel="noreferrer"><i class="fas fa-eye"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="internships">
+        <div class="container">
+            <div class="section-header center">
+                <span class="tag">Experience</span>
+                <h2>Internships & Certifications</h2>
+            </div>
+
+            <div class="internship-grid">
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <span class="company">AICTE–EduSkills</span>
+                        <span class="duration">Virtual Internship</span>
+                    </div>
+                    <h3>Java Full Stack Development</h3>
+                    <p>HTML, CSS, Bootstrap, JavaScript, jQuery, Core Java, Advanced Java, Spring Boot, Hibernate, MySQL, Git and GitHub.</p>
+                </div>
+
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <span class="company">CodeAlpha</span>
+                        <span class="duration">Internship</span>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p>Hands-on practice in modern frontend and full-stack web development.</p>
+                </div>
+
+                <div class="internship-card">
+                    <div class="internship-header">
+                        <span class="company">ServiceNow</span>
+                        <span class="duration">Accreditation</span>
+                    </div>
+                    <h3>Creator Studio Delivery</h3>
+                    <p>Worked with ServiceNow platform concepts related to delivery and workflow-based digital solutions.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <div class="section-header center">
+                <span class="tag">Achievements</span>
+                <h2>Milestones</h2>
+            </div>
+
+            <div class="achievement-grid">
+                <div class="achievement">
+                    <div class="achievement-icon">💻</div>
+                    <h4>125+ LeetCode Problems Solved</h4>
+                    <p>Focused DSA practice using Java.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">🏅</div>
+                    <h4>Java Full Stack Internship</h4>
+                    <p>AICTE–EduSkills training in frontend and backend development.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">🔧</div>
+                    <h4>Full Stack Learning</h4>
+                    <p>Continuous project-based learning in web development.</p>
+                </div>
+                <div class="achievement">
+                    <div class="achievement-icon">📘</div>
+                    <h4>ServiceNow Accreditation</h4>
+                    <p>Creator Studio Delivery certification experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-header center">
+                <span class="tag">Education</span>
+                <h2>Academic Journey</h2>
+            </div>
+
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <h3>B.Tech Computer Science and Engineering</h3>
+                    <p class="institute">IMS Engineering College, Ghaziabad</p>
+                    <p class="year">Currently in 3rd Year</p>
+                    <p class="year">SGPA: 8.4</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <h3>12th Standard</h3>
+                    <p class="institute">UP Board</p>
+                    <p class="year">Completed</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <h3>10th Standard</h3>
+                    <p class="institute">UP Board</p>
+                    <p class="year">Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header center">
+                <span class="tag">Contact</span>
+                <h2>Let's Connect</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-left">
+                    <h3>Get in Touch</h3>
+                    <p>Open to internship, collaboration, and software development opportunities.</p>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <strong><a href="mailto:shivasharma.aur123@gmail.com">shivasharma.aur123@gmail.com</a></strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span>Location</span>
+                            <strong>Ghaziabad, Uttar Pradesh, India</strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <span>GitHub</span>
+                            <strong><a href="https://github.com/codewithshiva52" target="_blank" rel="noreferrer">codewithshiva52</a></strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <div>
+                            <span>LinkedIn</span>
+                            <strong><a href="https://linkedin.com/in/shiva-sharma-a37a7b390" target="_blank" rel="noreferrer">shiva-sharma-a37a7b390</a></strong>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <span>LeetCode</span>
+                            <strong><a href="https://leetcode.com/Shiva_sharma_code" target="_blank" rel="noreferrer">Shiva_sharma_code</a></strong>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mbgrazkl" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <input type="text" name="subject" placeholder="Subject" />
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <!-- <p class="form-note">Your message will be sent securely through Formspree.</p> -->
+                    <div id="formStatus" class="form-status" aria-live="polite"></div>
+                    <button type="submit" class="btn-primary" id="submitBtn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-social">
+                <a href="https://github.com/codewithshiva52" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/shiva-sharma-a37a7b390" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://leetcode.com/Shiva_sharma_code" target="_blank" rel="noreferrer" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                <a href="mailto:shivasharma.aur123@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; <span id="year">2026</span> Shiva Sharma. Crafted with <i class="fas fa-heart" style="color:#6c63ff;"></i></p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
